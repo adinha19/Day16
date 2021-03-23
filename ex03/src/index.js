@@ -1,5 +1,5 @@
 class Person {
-     static display() {
+    static display() {
         message;
         return "Static method is invoked from Person class";
     }

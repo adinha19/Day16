@@ -1,8 +1,8 @@
 function firstName(firstName) {
-return firstName;
+    return firstName;
 }
 function lastName(lastName) {
- return lastName;
+    return lastName;
 }
 console.log(firstName("JOHN"));
 console.log(lastName("doe"));
