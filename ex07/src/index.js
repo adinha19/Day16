@@ -1,3 +1,3 @@
-const person = require('./nameFunctions.js');
-console.log("JOHN", "doe");
+const person = { firstName, lastName } = require('./nameFunctions.js');
+console.log(firstName("john"), lastName("doe"));
 

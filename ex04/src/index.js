@@ -4,7 +4,7 @@ class Pets {
         this.legs = legs;
     }
     walk() {
-        var numberOfLegs = this._name + " is walking on " + this._legs + " legs";
+        var numberOfLegs = this.name + " is walking on " + this.legs + " legs";
         return numberOfLegs;
     }
 }
@@ -14,7 +14,7 @@ class Dog extends Pets {
 
     }
     bark() {
-        var dogSay = this._name + " says WUF-WUF";
+        var dogSay = this.name + " says WUF-WUF";
         return dogSay;
     }
 

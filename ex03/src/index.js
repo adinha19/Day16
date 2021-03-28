@@ -1,13 +1,13 @@
 class Person {
     static display() {
-        message;
-        return "Static method is invoked from Person class";
+        let message = "Static method is invoked from Person class";
+        return message;
     }
     show() {
         return Person.display();
     }
 }
-var message = new Person();
+message = new Person();
 message.show();
 console.log(message.show());
 module.exports = Person;

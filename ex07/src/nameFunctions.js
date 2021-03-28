@@ -1,8 +1,9 @@
-function firstName(firstName) {
-    return firstName;
-}
-function lastName(lastName) {
-    return lastName;
+const firstName = (firstName) => {
+    return firstName.toUpperCase();
+};
+
+const lastName = (lastName) => {
+    return lastName.toLowerCase();
 }
 exports.firstName = firstName;
 exports.lastName = lastName;
